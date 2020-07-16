@@ -1,0 +1,20 @@
+.Board {
+    display: grid;
+    grid-template-columns: 40vw 55vw;
+    grid-template-rows: auto auto;
+}
+.AvailableLettersContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.ChosenLettersContainer {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    letter-spacing: 5px;
+}
+.HangmanCharacter {
+    text-align: center;
+    width: 100%;
+}

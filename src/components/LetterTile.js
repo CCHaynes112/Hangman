@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React from 'react';
 import './LetterTile.css';
 
 
@@ -20,4 +20,4 @@ function LetterTile(props) {
 export default LetterTile;
 
 //props.chosen ? {fontSize: 20} : {},
-//props.exists ? {backgroundColor: "#bfb4b"} : {backgroundColor: "#4bbf6a"}
+//props.exists ? {backgroundColor: "#bfb4b"} : {backgroundColor: "#4bbf6a"}eE

@@ -1,33 +1,30 @@
 .Board {
-    display: grid;
+  display: grid;
+  grid-template-rows: auto auto;
+}
+@media only screen and (min-width: 800px) {
+  .Board {
     grid-template-columns: 40vw 55vw;
-    grid-template-rows: auto auto;
+  }
+}
+@media only screen and (max-width: 799px) {
+  .Board {
+    grid-template-columns: repeat(40vw 55vw);
+  }
 }
 .AvailableLettersContainer {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 .ChosenLettersContainer {
-    display: flex;
-    flex-wrap: wrap;
-    align-content: flex-start;
-    letter-spacing: 10px;
-    padding: 10px;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-    height: fit-content;
-    margin: 10px;
-    min-height: 100px;
-}
-.HangmanCharacter {
-    text-align: center;
-    width: 100%;
-    letter-spacing: 5px;
-    padding: 5px;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-    height: fit-content;
-    margin: 10px;
-}
-.hangmanImg {
-    width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  letter-spacing: 10px;
+  padding: 10px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  height: fit-content;
+  margin: 10px;
+  min-height: 100px;
 }

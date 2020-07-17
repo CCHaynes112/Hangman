@@ -1,6 +1,7 @@
 # Hangman
 
 React based Hangman game
+Demo: http://hangman-ch.s3-website-us-east-1.amazonaws.com/
 
 ## Getting Started
 
